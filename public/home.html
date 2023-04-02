@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog : Homepage</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1>BLOG|ng</h1>
+        <ul class="links-container">
+            <li class="link-item"><a href="/" class="link">home</a></li>
+            <li class="link-item"><a href="/public/editor.html" class="link">editor</a></li>
+        </ul>
+    </nav>
+
+    <header class="header">
+        <div class="content">
+            <h1 class="heading">
+                <span class="small">welcome in the world of</span>
+                blog
+                <span class="no-fill">writing</span>
+            </h1>
+            <a href="/public/editor.html" class="btn">write a blog</a>
+        </div>
+    </header>
+
+    <!-- blog section -->
+    <section class="blogs-section">
+        <div class="blog-card">
+            <img src="img/header.png" class="blog-image" alt="">
+            <h1 class="blog-title">"The Great Gatsby".</h1>
+            <p class="blog-overview">The Great Gatsby" by F. Scott Fitzgerald is a classic novel that explores the themes of love, wealth, and the American Dream. Set in the 1920s, the story follows the enigmatic Jay Gatsby, a wealthy socialite who becomes obsessed with winning back his former love, Daisy Buchanan.</p>
+            <a href="" class="btn dark">read</a>
+        </div>
+
+        <div class="blog-card">
+            <img src="img/header.png" class="blog-image" alt="">
+            <h1 class="blog-title">The Nightingale</h1>
+            <p class="blog-overview">The Nightingale" by Kristin Hannah is a captivating and emotional novel that tells the story of two sisters in Nazi-occupied France during World War II. Vianne and Isabelle are very different from each other, but both are forced to confront the brutal reality of war and make difficult choices in order to survive.</p>
+            <a href="" class="btn dark">read</a>
+        </div>
+
+        <div class="blog-card">
+            <img src="img/header.png" class="blog-image" alt="">
+            <h1 class="blog-title">The Alchemist.</h1>
+            <p class="blog-overview">The Alchemist" by Paulo Coelho is a beautiful and inspiring novel that tells the story of a shepherd boy named Santiago who sets out on a journey to fulfill his destiny. Along the way, he encounters a series of obstacles and learns valuable lessons about the nature of life, love, and the pursuit of one's dreams.</p>
+            <a href="" class="btn dark">read</a>
+        </div>
+
+        <div class="blog-card">
+            <img src="img/header.png" class="blog-image" alt="">
+            <h1 class="blog-title">Sapiens: A Brief History of Humankind.</h1>
+            <p class="blog-overview">Sapiens: A Brief History of Humankind" by Yuval Noah Harari is an eye-opening and thought-provoking exploration of the history of our species, from the emergence of Homo sapiens in Africa to the present day. Harari's writing is clear and engaging, making complex ideas accessible to a wide audience.</p>
+            <a href="" class="btn dark">read</a>
+        </div>
+
+    </section>
+
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+
+    <script src="js/firebase.js"></script>
+    <script src="js/home.js"></script>
+    
+</body>
+</html>
